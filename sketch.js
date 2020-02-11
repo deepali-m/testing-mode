@@ -41,4 +41,9 @@ function draw(){
   if(gameState === 2){
     game.end();
   }
+  if(game.end()){
+     fill(255);
+     textSize(20);
+    text("player rank :" ,+ player.rank, displayWidth-200,20)
+  }
 }
